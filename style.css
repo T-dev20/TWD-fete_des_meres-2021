@@ -1,9 +1,10 @@
-body {
-  margin: 0 auto;
+.mainPage {
+  margin-top: -17px;
 }
 
 .container {
   position: relative;
+  top: 0px;
   width: 100%;
   height: 100vh;
   background: linear-gradient(to left, #fc5296, #f67062);
