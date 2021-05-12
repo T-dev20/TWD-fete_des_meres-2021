@@ -9,6 +9,12 @@ body {
   background: linear-gradient(to left, #fc5296, #f67062);
 }
 
+.container svg {
+  display: block;
+  position: relative;
+  bottom: -28rem;
+}
+
 /* .container::before {
   content: "";
   position: absolute;
