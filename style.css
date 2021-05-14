@@ -20,8 +20,8 @@ body {
 .overlay {
   width: 100%;
   height: 100%;
-  background: blue;
-  opacity: 0.6;
+  background: linear-gradient(to right, #fc5296, #fe28a2);
+  opacity: 0.5;
   position: absolute;
 }
 
