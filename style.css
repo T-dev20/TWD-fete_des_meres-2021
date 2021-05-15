@@ -113,7 +113,7 @@ nav li:focus::after {
 .balloon1 {
   display: inline-block;
   position: relative;
-  top: -2px;
+  top: -100px;
   min-height: 16em;
   min-width: 16em;
   border-radius: 150%;
@@ -159,16 +159,16 @@ nav li:focus::after {
 }
 
 .balloon-container1 {
-  animation: balloonmove 70s ease-in-out infinite;
+  animation: balloonmove 20s ease-in-out infinite;
 }
 
 @keyframes balloonmove {
   0%,
   100% {
-    transform: translateY(0%);
+    transform: translateY(100%);
   }
   90% {
-    transform: translateY(90%);
+    transform: translateY(0%);
   }
 }
 
