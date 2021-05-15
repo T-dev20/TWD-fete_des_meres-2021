@@ -144,6 +144,25 @@ nav li:focus::after {
   z-index: 2;
 }
 
+#span1 {
+  position: relative;
+  top: -5px;
+  left: 210px;
+  display: inline-block;
+  min-height: 3em;
+  min-width: 3em;
+  border-radius: 50%;
+  border-bottom-left-radius: 52%;
+  border-bottom-right-radius: 72%;
+  border-top-left-radius: 72%;
+  border-top-right-radius: 420%;
+  border: 2px solid #d2691e;
+  border-top-color: transparent;
+  border-right-color: transparent;
+  transform: rotate(180deg);
+  z-index: -8;
+}
+
 @media all and (min-width: 320px) and (max-width: 405px) {
   .container {
     height: 78vh;
