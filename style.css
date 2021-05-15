@@ -22,6 +22,9 @@ body {
   height: 100%;
   background: linear-gradient(to right, #fc5296, #fe28a2);
   opacity: 0.5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   position: absolute;
 }
 
