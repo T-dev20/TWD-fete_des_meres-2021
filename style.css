@@ -29,6 +29,10 @@ body {
   position: absolute;
 }
 
+nav li {
+  margin-left: -27px;
+}
+
 .button {
   list-style-type: none;
   min-width: 200px;
