@@ -28,6 +28,10 @@ body {
   position: absolute;
 }
 
+nav li {
+  list-style-type: none;
+}
+
 .container svg {
   display: block;
   position: relative;
