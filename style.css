@@ -120,13 +120,27 @@ nav li:focus::after {
   top: -110px;
   min-height: 16em;
   min-width: 16em;
-  border-radius: 150%;
-  border-bottom-left-radius: 425%;
-  border-bottom-right-radius: 425%;
-  border-top-left-radius: 425%;
   background: linear-gradient(5deg, #00aa88, #004589);
-  transform: rotate(135deg);
   z-index: 2;
+}
+
+.balloon1:before,
+.balloon1:after {
+  position: absolute;
+  content: "";
+  left: 50px;
+  top: 0;
+  width: 50px;
+  height: 80px;
+  background-color: #f56dc3;
+  border-radius: 50px 50px 0 0;
+  transform: rotate(-45deg);
+  transform-origin: 0 100%;
+}
+.balloon1:after {
+  left: 0;
+  transform: rotate(45deg);
+  transform-origin: 100% 100%;
 }
 
 .balloon-container1 {
