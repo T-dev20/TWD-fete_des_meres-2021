@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Francois+One&display=swap");
 
 body {
   margin: 0 auto;
@@ -121,7 +122,8 @@ nav li:focus::after {
   min-height: 16em;
   min-width: 16em;
   background: transparent;
-  z-index: 2;
+  text-align: center;
+  font-family: "Francois One", sans-serif;
 }
 
 .balloon1:before,
