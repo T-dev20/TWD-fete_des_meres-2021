@@ -144,7 +144,7 @@ nav li:focus::after {
 }
 
 .balloon-container1 {
-  /* animation: balloonmove 20s ease-in-out infinite; */
+  animation: balloonmove 20s ease-in-out infinite;
   display: flex;
   justify-content: center;
   align-items: center;
