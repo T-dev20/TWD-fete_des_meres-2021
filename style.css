@@ -120,7 +120,7 @@ nav li:focus::after {
   top: -120px;
   min-height: 16em;
   min-width: 16em;
-  background: linear-gradient(5deg, #00aa88, #004589);
+  background: transparent;
   z-index: 2;
 }
 
