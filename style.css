@@ -224,6 +224,12 @@ nav li:focus::after {
   color: black;
 }
 
+@media screen and (min-width: 904px) {
+  .arrow-left {
+    display: none;
+  }
+}
+
 /* .container::before {
   content: "";
   position: absolute;
