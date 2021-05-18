@@ -209,11 +209,19 @@ nav li:focus::after {
   }
 }
 
+#mainPage2__header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .arrow-left {
   position: absolute;
   display: inline-block;
   font-size: 2rem;
-  margin-left: 55px;
+  margin-left: -155px;
+  margin-top: 15px;
+  color: black;
 }
 
 /* .container::before {
