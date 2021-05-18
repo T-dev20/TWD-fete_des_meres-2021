@@ -209,6 +209,13 @@ nav li:focus::after {
   }
 }
 
+.arrow-left {
+  position: absolute;
+  display: inline-block;
+  font-size: 2rem;
+  margin-left: 55px;
+}
+
 /* .container::before {
   content: "";
   position: absolute;
