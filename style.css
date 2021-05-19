@@ -230,6 +230,15 @@ nav li:focus::after {
   }
 }
 
+.texte-mere {
+  display: flex;
+  justify-content: center;
+}
+
+.texte-mere p {
+  line-height: 30px;
+  font-size: 1.3rem;
+}
 /* .container::before {
   content: "";
   position: absolute;
