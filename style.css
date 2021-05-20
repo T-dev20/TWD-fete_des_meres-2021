@@ -328,13 +328,6 @@ nav li:focus::after {
   overflow: hidden;
 }
 
-#button img {
-  position: absolute;
-  left: -73%;
-  top: 0;
-  width: 180%;
-}
-
 #button .heart {
   position: fixed;
   width: 50px;
