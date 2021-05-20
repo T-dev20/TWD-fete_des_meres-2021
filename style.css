@@ -248,3 +248,17 @@ nav li:focus::after {
   /* font-family: "Dancing Script", cursive; */
   font-family: "Great Vibes", cursive;
 }
+
+.texte-mère__Phrase1 {
+  animation: apparitionTexte 2s ease-in-out 0.1s;
+}
+
+@keyframes apparitionTexte {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
