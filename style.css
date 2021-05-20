@@ -237,6 +237,7 @@ nav li:focus::after {
   align-items: center;
   text-align: center;
   background-color: black;
+  border-radius: 2pc 2pc 0 0;
 }
 
 .texte-mere p {
