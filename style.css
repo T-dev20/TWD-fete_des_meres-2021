@@ -273,9 +273,6 @@ nav li:focus::after {
 .texte-mère__Phrase8 {
   animation: apparitionTexte 3s ease-in-out 0.8s;
 }
-.texte-mère__Phrase9 {
-  animation: apparitionTexte 3s ease-in-out 0.9s;
-}
 
 @keyframes apparitionTexte {
   from {
