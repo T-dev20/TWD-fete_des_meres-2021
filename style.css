@@ -139,7 +139,7 @@ nav li:focus::after {
   top: -60px;
   width: 70%;
   height: 90%;
-  background-color: #f56dc3;
+  background-color: #e84981;
   border-radius: 100px 100px 0 0;
   transform: rotate(-50deg);
   transform-origin: 92% 100%;
