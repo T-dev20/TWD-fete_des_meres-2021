@@ -265,28 +265,28 @@ nav li:focus::after {
 }
 
 .texte-mère__Phrase1 {
-  animation: apparitionTexte 3s ease-in-out 0.1s;
+  animation: apparitionTexte 2s ease-in-out 0.1s;
 }
 .texte-mère__Phrase2 {
-  animation: apparitionTexte 3s ease-in-out 0.2s;
+  animation: apparitionTexte 2s ease-in-out 0.2s;
 }
 .texte-mère__Phrase3 {
-  animation: apparitionTexte 3s ease-in-out 0.3s;
+  animation: apparitionTexte 2s ease-in-out 0.3s;
 }
 .texte-mère__Phrase4 {
-  animation: apparitionTexte 3s ease-in-out 0.4s;
+  animation: apparitionTexte 2s ease-in-out 0.4s;
 }
 .texte-mère__Phrase5 {
-  animation: apparitionTexte 3s ease-in-out 0.5s;
+  animation: apparitionTexte 2s ease-in-out 0.5s;
 }
 .texte-mère__Phrase6 {
-  animation: apparitionTexte 3s ease-in-out 0.6s;
+  animation: apparitionTexte 2s ease-in-out 0.6s;
 }
 .texte-mère__Phrase7 {
-  animation: apparitionTexte 3s ease-in-out 0.7s;
+  animation: apparitionTexte 2s ease-in-out 0.7s;
 }
 .texte-mère__Phrase8 {
-  animation: apparitionTexte 3s ease-in-out 0.8s;
+  animation: apparitionTexte 2s ease-in-out 0.8s;
 }
 
 @keyframes apparitionTexte {
