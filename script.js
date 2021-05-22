@@ -10,7 +10,7 @@ function deleteHearts(){
   $('.heart:lt(100)').remove();
 }
 function centerHeart(){
-  $(".heart").css('-webkit-animation','show-heart 4s ease infinite');
+  $(".heart").css('-webkit-animation','show-heart 4s ease');
 }
 setInterval(addHeart,50);
 setInterval(centerHeart,200);

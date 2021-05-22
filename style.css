@@ -336,7 +336,16 @@ nav li:focus::after {
   overflow: hidden;
 }
 
-#button .heart {
+#button svg {
+  width: 50%;
+  height: 50%;
+  left: 50%;
+  top: 50%;
+  position: absolute;
+  transform: translateX(-50%) translateY(-45%);
+}
+
+.heart {
   position: fixed;
   width: 50px;
   z-index: 10;
@@ -347,19 +356,10 @@ nav li:focus::after {
   opacity: 0;
 }
 
-#button svg {
-  width: 50%;
-  height: 50%;
-  left: 50%;
-  top: 50%;
-  position: absolute;
-  transform: translateX(-50%) translateY(-45%);
-}
-
 @keyframes show-heart {
   0% {
     opacity: 0;
-    transform: translateX(-50%) translateY(-50%) scale(1.5) rotateZ(-15deg);
+    transform: translateX(-50%) translateY(-50%) scale(0.5) rotateZ(-15deg);
   }
   50% {
     opacity: 0.8;
