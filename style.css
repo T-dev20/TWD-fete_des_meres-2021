@@ -302,7 +302,7 @@ nav li:focus::after {
   position: relative;
   display: inline-block;
   font-size: 2rem;
-  margin-left: 45px;
+  margin-left: 30px;
   margin-top: 15px;
   color: black;
 }
