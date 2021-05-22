@@ -226,9 +226,21 @@ nav li:focus::after {
   color: black;
 }
 
-@media screen and (min-width: 904px) {
+@media screen and (min-width: 768px) and (max-width: 1020px) {
   .arrow-left {
-    display: none;
+    margin-left: -345px;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1200px) {
+  .arrow-left {
+    margin-left: -475px;
+  }
+}
+
+@media screen and (min-width: 1300px) {
+  .arrow-left {
+    margin-left: -735px;
   }
 }
 
