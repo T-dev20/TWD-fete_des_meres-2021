@@ -298,6 +298,15 @@ nav li:focus::after {
   background-color: greenyellow;
 }
 
+.back__arrow-left {
+  position: relative;
+  display: inline-block;
+  font-size: 2rem;
+  margin-left: 45px;
+  margin-top: 15px;
+  color: black;
+}
+
 #source-heart {
   width: 20px;
   height: 20px;
