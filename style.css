@@ -391,6 +391,11 @@ nav li:focus::after {
   background-color: #22181e;
 }
 
+.back > a {
+  display: inline-block;
+  height: 50px;
+}
+
 .back__arrow-left {
   position: relative;
   display: inline-block;
