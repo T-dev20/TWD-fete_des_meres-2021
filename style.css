@@ -202,17 +202,39 @@ nav li:focus::after {
 }
 
 .balloon1 {
-  display: inline-block;
+  background: purple;
   position: relative;
+  height: 100px;
+  width: 100px;
+  transform: rotate(-45deg) scale(1);
   top: -150px;
-  min-height: 16em;
-  min-width: 16em;
-  background: transparent;
   text-align: center;
   font-family: "Francois One", sans-serif;
 }
 
-.balloon1:before,
+.balloon1::after {
+  background: inherit;
+  border-radius: 50%;
+  content: "";
+  position: absolute;
+  top: -50%;
+  left: 0;
+  height: 100px;
+  width: 100px;
+}
+
+.balloon1::before {
+  background: inherit;
+  border-radius: 50%;
+  content: "";
+  position: absolute;
+  top: 0;
+  right: -50%;
+  height: 100px;
+  width: 100px;
+}
+
+/* .balloon1:before,
 .balloon1:after {
   position: absolute;
   content: "";
@@ -229,7 +251,7 @@ nav li:focus::after {
   left: 0;
   transform: rotate(50deg);
   transform-origin: 0% 105%;
-}
+} */
 
 .balloon-container1 {
   animation: balloonmove 20s ease-in-out infinite;
