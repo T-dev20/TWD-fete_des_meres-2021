@@ -233,25 +233,6 @@ nav li:focus::after {
   width: 100px;
 }
 
-/* .balloon1:before,
-.balloon1:after {
-  position: absolute;
-  content: "";
-  left: 70px;
-  top: -60px;
-  width: 70%;
-  height: 100%;
-  background-color: #e84981;
-  border-radius: 100px 100px 0 0;
-  transform: rotate(-50deg);
-  transform-origin: 101.8% 101%;
-}
-.balloon1:after {
-  left: 0;
-  transform: rotate(50deg);
-  transform-origin: 0% 105%;
-} */
-
 .balloon-container1 {
   animation: balloonmove 20s ease-in-out infinite;
   display: flex;
