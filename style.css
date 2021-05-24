@@ -239,6 +239,7 @@ nav li:focus::after {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  height: 300px;
 }
 
 @keyframes balloonmove {
