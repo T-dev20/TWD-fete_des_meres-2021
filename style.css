@@ -142,12 +142,12 @@ nav li:focus::after {
   background-color: #e84981;
   border-radius: 100px 100px 0 0;
   transform: rotate(-50deg);
-  transform-origin: 90% 100%;
+  transform-origin: 101.8% 101%;
 }
 .balloon1:after {
   left: 0;
   transform: rotate(50deg);
-  transform-origin: 10% 100%;
+  transform-origin: 0% 105%;
 }
 
 .balloon-container1 {
