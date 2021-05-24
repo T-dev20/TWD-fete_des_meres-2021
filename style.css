@@ -202,7 +202,7 @@ nav li:focus::after {
 }
 
 .hearth {
-  background: purple;
+  background: #e84981;
   position: relative;
   height: 100px;
   width: 100px;
