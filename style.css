@@ -206,8 +206,7 @@ nav li:focus::after {
   position: relative;
   height: 100px;
   width: 100px;
-  transform: rotate(-45deg) scale(1);
-  top: -150px;
+  transform: rotate(-45deg) scale(1.7);
   text-align: center;
   font-family: "Francois One", sans-serif;
 }
