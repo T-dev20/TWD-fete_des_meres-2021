@@ -245,6 +245,8 @@ nav li:focus::after {
 .balloon-container1 p {
   display: inline-block;
   margin-bottom: 125px;
+  font-family: "Dancing Script", cursive;
+  font-weight: bold;
 }
 
 @keyframes balloonmove {
