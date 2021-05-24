@@ -201,7 +201,7 @@ nav li:focus::after {
   bottom: -28rem;
 }
 
-.balloon1 {
+.hearth {
   background: purple;
   position: relative;
   height: 100px;
@@ -212,7 +212,7 @@ nav li:focus::after {
   font-family: "Francois One", sans-serif;
 }
 
-.balloon1::after {
+.hearth::after {
   background: inherit;
   border-radius: 50%;
   content: "";
@@ -223,7 +223,7 @@ nav li:focus::after {
   width: 100px;
 }
 
-.balloon1::before {
+.hearth::before {
   background: inherit;
   border-radius: 50%;
   content: "";
