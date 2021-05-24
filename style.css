@@ -35,6 +35,24 @@ body {
   }
 }
 
+.wrapper__loading-spinner {
+  width: 5rem;
+  height: 5rem;
+  display: inline-block;
+  position: relative;
+  border: 6px solid #fff;
+  border-radius: 50%;
+  border-top-color: rgba(79, 209, 197, 0.64);
+  margin-bottom: 2rem;
+  animation: spin 1s infinite ease-in-out;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
 .mainPage {
   margin-top: -17px;
   display: flex;
